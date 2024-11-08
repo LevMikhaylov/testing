@@ -53,9 +53,9 @@ base_request = BaseRequest(BASE_URL_PETSTORE)
 print("User API Requests")
 
 # 1. GET пользователя
-print("GET User:")
-user_info = base_request.get('user', 'test_user', expected_error=True)  # Пользователь не существует
-pprint.pprint(user_info)
+#print("GET User:")
+#user_info = base_request.get('user', 'test_user', expected_error=True)  # Пользователь не существует
+#pprint.pprint(user_info)
 
 # 2. POST создать пользователя
 print("POST User:")
