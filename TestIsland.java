@@ -41,7 +41,6 @@ public class TestIsland {
             Mouse mouse1 = new Mouse("Mouse",3,12,34,0,2);
             Horse horse1 = new Horse("Horse",4,3,12,0,2);
             Horse horse2 = new Horse("Horse",4,3,12,0,2);
-            Island.addAnimalToCell(rabbit1, 0, 0);
             Island.addAnimalToCell(wolf1, 0, 0);
             Island.addAnimalToCell(wolf2, 0, 0);
             Island.addAnimalToCell(fox, 0, 0);
